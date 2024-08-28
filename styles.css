@@ -1,0 +1,90 @@
+
+/* styles the main content of the page*/
+body{
+    text-align: center;
+    background-color: antiquewhite;
+    
+}
+
+.welcome{
+    color:red;
+}
+
+/*save this navbar set up to have it look like this */
+.navbar ul{
+    list-style: none;
+    background-color: red;
+    padding: 10; /*Padding is used to create space around an element's content, inside of any defined borders.*/
+    margin: 10; /*Margins are used to create space around elements, outside of any defined borders.*/
+    
+}
+
+.navbar li{
+    display: inline-block; /*display list items horizontally instead of vertically*/
+}
+
+.navbar a{
+    text-decoration: none;
+    width: 100px;
+    display: block;
+    font-size: 15px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    
+}
+
+.navbar a:hover{ /*when curser is over link, color appears*/
+    background: white; 
+}
+/*end of the navbar setup*/
+
+img{
+    height: 400px;
+    width: 400px;
+}
+
+footer{
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+
+.about{
+    text-align: left;
+    
+}
+
+.experience, p{
+    text-align: left;
+}
+
+h3{
+    text-align: left;
+    color: blue;
+}
+
+#date{
+    color: blue;
+}
+
+aside{
+    float: right;
+    width: 20%;
+    max-width: 200px;
+    min-width: 150px;
+    border: gray solid 1px;
+    background-color: lightgray;
+    padding: 15px;
+
+}
+
+.java{
+    text-align: left;
+}
+
+.video{
+    text-align: left;
+}
